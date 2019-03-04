@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Boss.h"
+#import "Worker.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        Worker * worker = [[Worker alloc]init];
+        
+        Boss * boss = [[Boss alloc]init];
+        
+        [boss setDelegate:worker];
+        boss.delegate = worker;
+        [boss sendCommand];
+        
     }
     return 0;
 }

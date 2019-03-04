@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		63EAF91921EB69A5001F0A99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EAF91821EB69A5001F0A99 /* main.m */; };
+		63EAF92121EB69B3001F0A99 /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EAF92021EB69B3001F0A99 /* Worker.m */; };
+		63EAF92421EB69BC001F0A99 /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EAF92321EB69BC001F0A99 /* Boss.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		63EAF91521EB69A5001F0A99 /* 代理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "代理"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EAF91821EB69A5001F0A99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63EAF91F21EB69B3001F0A99 /* Worker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
+		63EAF92021EB69B3001F0A99 /* Worker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
+		63EAF92221EB69BC001F0A99 /* Boss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		63EAF92321EB69BC001F0A99 /* Boss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				63EAF91821EB69A5001F0A99 /* main.m */,
+				63EAF91F21EB69B3001F0A99 /* Worker.h */,
+				63EAF92021EB69B3001F0A99 /* Worker.m */,
+				63EAF92221EB69BC001F0A99 /* Boss.h */,
+				63EAF92321EB69BC001F0A99 /* Boss.m */,
 			);
 			path = "代理";
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63EAF92421EB69BC001F0A99 /* Boss.m in Sources */,
 				63EAF91921EB69A5001F0A99 /* main.m in Sources */,
+				63EAF92121EB69B3001F0A99 /* Worker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
